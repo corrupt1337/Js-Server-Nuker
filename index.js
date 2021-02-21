@@ -24,7 +24,7 @@ selfbot.on('message', msg => {
    }  
 
    //Changes Server Name
-   msg.guild.setName('Corrupt Was Here').then(() => {
+   msg.guild.setName('SERVER NAME').then(() => {
        console.log(`Changed server name`)
    }).catch(() => console.error)
    
